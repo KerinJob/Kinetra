@@ -1,0 +1,25 @@
+# Datos y artefactos privados
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+.env
+*.env
+data/
+storage/
+outputs/
+# Videos: nunca en Git
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+# Modelo descargable (ver README)
+engine/models/*.task
+
+# Generados
+*.egg-info/
+frontend/dist/
+frontend/test-results/
+playwright-report/
